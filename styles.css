@@ -300,8 +300,8 @@ nav {
 /* hero */
 header {
   min-height: 100vh;
-  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(./hero-bcg.jpeg) center/cover no-repeat;
+  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.13)),
+    url(./crenisoara.jpeg) center/cover no-repeat;
 }
 .banner {
   min-height: 100vh;
@@ -309,9 +309,11 @@ header {
   place-items: center;
   text-align: center;
 }
+
 .container h1 {
   color: var(--clr-white);
   text-transform: uppercase;
+  margin-bottom: 10rem;
 }
 .container p {
   color: var(--clr-white);
@@ -319,6 +321,7 @@ header {
   margin: 0 auto;
   margin-bottom: 1.25rem;
 }
+
 @media screen and (min-width: 768px) {
   .container p {
     max-width: 40rem;
